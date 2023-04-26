@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="w0D?[y,fJ6oft71Uj1*o" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="Ef3B7#YI~[p9gZr%?iDF"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="w0D?[y,fJ6oft71Uj1*o" x="1" y="24"><statement name="HANDLER"><block type="playMelody" id="[+!L~v-h4]?E+~wYF@C5"><value name="melody"><shadow type="melody_editor" id="Qz}jDijy).H=@M{]((`w"><field name="melody">"B A G A G F A C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="g*`7X!3pf]`h`i]OFjXZ"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">73</field></shadow></value></block></statement></block><block type="device_button_event" id="JYa:kA;WwHEGaaWyT4=z" x="398" y="169"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="Ef3B7#YI~[p9gZr%?iDF"><field name="LEDS">`
         . # . . . 
         . # . # . 
         . # # . . 
@@ -16,4 +16,4 @@
         . . # . . 
         . . # . . 
         . . # . .
-        `</field></block></next></block></next></block></statement></block><block type="device_forever" id="Ep6EM7wtym=OpcYR#`{g" x="205" y="0"><statement name="HANDLER"><block type="playMelody" id="[+!L~v-h4]?E+~wYF@C5"><value name="melody"><shadow type="melody_editor" id="Qz}jDijy).H=@M{]((`w"><field name="melody">"B A G A G F A C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="g*`7X!3pf]`h`i]OFjXZ"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">73</field></shadow></value></block></statement></block></xml>
+        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="^Ym-fubml~=ft=~cAkoz" x="72" y="258"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_icon" id="~h3S~~Vc(FAWRSa{/OY:"><field name="i">IconNames.Ghost</field></block></statement></block></xml>
